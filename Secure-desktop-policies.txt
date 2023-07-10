@@ -1,0 +1,16 @@
+Allow dynamic-group DesktopPoolsDynamicGroup to {DOMAIN_INSPECT} in tenancy
+Allow dynamic-group DesktopPoolsDynamicGroup to inspect users in tenancy
+Allow dynamic-group DesktopPoolsDynamicGroup to inspect compartments in tenancy
+Allow dynamic-group DesktopPoolsDynamicGroup to use tag-namespaces in tenancy
+Allow dynamic-group DesktopPoolsDynamicGroup to manage virtual-network-family in compartment testvdi
+Allow dynamic-group DesktopPoolsDynamicGroup to read instance-images in compartment testvdi
+Allow dynamic-group DesktopPoolsDynamicGroup to manage instance-family in compartment testvdi
+Allow dynamic-group DesktopPoolsDynamicGroup to manage volume-family in compartment testvdi
+Allow dynamic-group DesktopPoolsDynamicGroup to manage dedicated-vm-hosts in compartment testvdi
+Allow dynamic-group DesktopPoolsDynamicGroup to manage orm-family in compartment testvdi
+Allow group Administrators to manage desktop-pool-family in compartment testvdi
+Allow group Administrators to use virtual-network-family in compartment testvdi
+Allow group Administrators to use instance-images in compartment testvdi
+Allow dynamic-group DesktopPoolsDynamicGroup to {VNIC_CREATE, VNIC_DELETE} in compartment testvdi
+Allow dynamic-group DesktopPoolsDynamicGroup to manage instance-configurations in compartment testvdi
+Allow group desktop-users to use published-desktop in compartment testvdi
